@@ -23,3 +23,9 @@ Firefox       | https://github.com/mozilla/geckodriver/releases
 Safari        | https://webkit.org/blog/6900/webdriver-support-in-safari-10/
 Edge          | https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 
+## Usage
+
+```
+from selenium import webdriver
+browser = webdriver.Chrome('/home/anurag/Downloads/chromedriver')
+```
